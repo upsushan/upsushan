@@ -2,9 +2,9 @@
 
 I specialize in building high-quality mobile and web applications. My expertise includes working with cutting-edge technologies like **Flutter**, **Dart**, **Firebase**, **Google Cloud**, **Supabase**, and **Machine Learning**. Check out my repositories and let's collaborate! 
 
-
+<br>
 <img src="https://i.postimg.cc/k5brykt5/ezgif-4-4df22ce127.webp"  height="180">
-
+<br>
 
 ## 🚀 Technologies & Tools I Work With
 
