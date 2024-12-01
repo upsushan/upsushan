@@ -2,7 +2,9 @@
 
 I specialize in building high-quality mobile and web applications. My expertise includes working with cutting-edge technologies like **Flutter**, **Dart**, **Firebase**, **Google Cloud**, **Supabase**, and **Machine Learning**. Check out my repositories and let's collaborate! 
 
-<img src="https://i.postimg.cc/90TdkYGG/Nb0-Vq6y8c-Ovc-X0g-Vr-JS74-Jsy-KZH8-Iu-R9-MXf-Afh-Ie-ezgif-com-optiwebp.webp" width="220" height="220">
+
+<img src="https://i.postimg.cc/k5brykt5/ezgif-4-4df22ce127.webp"  height="180">
+
 
 ## 🚀 Technologies & Tools I Work With
 
@@ -27,14 +29,6 @@ I specialize in building high-quality mobile and web applications. My expertise 
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)  
 - **TensorFlow**: Implementing machine learning models for real-world applications.
-
----
-
-## 💻 My Skills & Experience
-
-- **Mobile App Development**: Flutter, Dart, Firebase
-- **Backend & Cloud Services**: Google Cloud, Supabase
-- **Machine Learning**: TensorFlow, Data Analysis
 
 ---
 
