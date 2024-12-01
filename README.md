@@ -15,7 +15,7 @@ I specialize in building high-quality mobile and web applications. My expertise 
 ### ☁️ **Cloud & Backend Services**
 
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)  
-- **Firebase**: Cloud Firestore, authentication, cloud functions, and more.
+- **Firebase**: Cloud Firestore, Authentication, Machine Learning, and more.
 
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=google-cloud&logoColor=white)  
 - **Google Cloud**: Cloud Functions & services for your projects.
