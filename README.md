@@ -1,75 +1,98 @@
-<div align="center">
-  <h1 style="font-size: 3rem;">👋 Hi, I'm <span style="color: #0078D4;">Sushan</span>!</h1>
-  <p style="font-size: 1.2rem; color: #666;">
-    🚀 Developer | 💡 Innovator | 🌍 Open Source Enthusiast
-  </p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Animation</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            overflow: hidden;
+            font-family: 'Arial', sans-serif;
+        }
 
-  <div style="display: flex; justify-content: center; gap: 10px;">
-    <a href="https://your-portfolio.com" target="_blank">
-      <img src="https://img.shields.io/badge/Portfolio-0078D4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-    </a>
-    <a href="https://www.linkedin.com/in/yourprofile/" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-    </a>
-    <a href="mailto:your.email@example.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-    </a>
-  </div>
-</div>
+        .text-container {
+            position: relative;
+            font-size: 3rem;
+            font-weight: bold;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
 
----
+        .text-container span {
+            display: inline-block;
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s ease forwards;
+        }
 
-<div align="center">
-  <h2 style="color: #0078D4;">About Me</h2>
-  <p>
-    I'm a passionate software developer with expertise in modern web and app development.
-    I love building innovative solutions and contributing to open-source projects.
-  </p>
-  <img src="https://user-images.githubusercontent.com/placeholder.gif" alt="Coding GIF" style="width: 60%; border-radius: 10px; transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-</div>
+        .text-container span:nth-child(1) {
+            animation-delay: 0.2s;
+        }
+        .text-container span:nth-child(2) {
+            animation-delay: 0.4s;
+        }
+        .text-container span:nth-child(3) {
+            animation-delay: 0.6s;
+        }
+        .text-container span:nth-child(4) {
+            animation-delay: 0.8s;
+        }
+        .text-container span:nth-child(5) {
+            animation-delay: 1s;
+        }
+        .text-container span:nth-child(6) {
+            animation-delay: 1.2s;
+        }
+        .text-container span:nth-child(7) {
+            animation-delay: 1.4s;
+        }
 
----
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
-<div align="center">
-  <h2 style="color: #0078D4;">🛠️ Tech Stack</h2>
-  <p>
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-    <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-    <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-  </p>
-</div>
+        .glow {
+            text-shadow: 0 0 10px #ffffff, 0 0 20px #ff0099, 0 0 30px #ff0099, 0 0 40px #ff0099;
+            animation: glowEffect 1.5s infinite alternate;
+        }
 
----
-
-<div align="center">
-  <h2 style="color: #0078D4;">📊 GitHub Stats</h2>
-  <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=upsushan&show_icons=true&theme=radical" alt="GitHub Stats" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-  </p>
-  <p>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical" alt="GitHub Streak" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-  </p>
-</div>
-
----
-
-<div align="center">
-  <h2 style="color: #0078D4;">🌟 Featured Projects</h2>
-  <p>
-    <a href="https://github.com/yourusername/project1" target="_blank">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project1&theme=radical" alt="Project 1" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-    </a>
-    <a href="https://github.com/yourusername/project2" target="_blank">
-      <img src="https://github-readme-stats.vercel.app/api/pin/?username=yourusername&repo=project2&theme=radical" alt="Project 2" style="transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'"/>
-    </a>
-  </p>
-</div>
-
----
-
-<div align="center">
-  <p style="font-size: 1rem; color: #666;">✨ Crafted with love and code ✨</p>
-</div>
+        @keyframes glowEffect {
+            0% {
+                text-shadow: 0 0 10px #ffffff, 0 0 20px #ff0099, 0 0 30px #ff0099, 0 0 40px #ff0099;
+            }
+            100% {
+                text-shadow: 0 0 20px #ffffff, 0 0 30px #ff33cc, 0 0 40px #ff33cc, 0 0 50px #ff33cc;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="text-container">
+        <span class="glow">H</span>
+        <span class="glow">i</span>
+        <span>,</span>
+        <span class="glow">I</span>
+        <span class="glow">'m</span>
+        <span class="glow">S</span>
+        <span class="glow">u</span>
+        <span class="glow">s</span>
+        <span class="glow">h</span>
+        <span class="glow">a</span>
+        <span class="glow">n</span>
+    </div>
+</body>
+</html>
