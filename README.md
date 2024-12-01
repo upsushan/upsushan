@@ -1,7 +1,5 @@
-## Hi there 👋
-
 <div align="center">
-  <h1 style="font-size: 3rem;">👋 Hi, I'm <span style="color: #0078D4;">Your Name</span>!</h1>
+  <h1 style="font-size: 3rem;">👋 Hi, I'm <span style="color: #0078D4;">Sushan</span>!</h1>
   <p style="font-size: 1.2rem; color: #666;">
     🚀 Developer | 💡 Innovator | 🌍 Open Source Enthusiast
   </p>
@@ -49,7 +47,7 @@
 <div align="center">
   <h2 style="color: #0078D4;">📊 GitHub Stats</h2>
   <p>
-    <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical" alt="GitHub Stats"/>
+    <img src="https://github-readme-stats.vercel.app/api?username=upsushan&show_icons=true&theme=radical" alt="GitHub Stats"/>
   </p>
   <p>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical" alt="GitHub Streak"/>
